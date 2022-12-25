@@ -9,19 +9,19 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<div class="container">
+	<div method="post" class="container">
 		<form action="" class="student">
 			<h1 class="head">REGISTRATION FORM</h1>
-			<label for="name">NAME</label>
+			<label for="name" id="name">NAME</label>
 			<input type="text" id="name" required><br>
-			<label for="email">Email</label>
+			<label for="email" id="email">Email</label>
 			<input type="email" id="email" required><br>
-			<label for="passwor">PASSWORD</label>
+			<label for="password" id="password">PASSWORD</label>
 			<input type="password" id="password" required><br>
-			<label for="gender">GENDER</label>
-			<input type="radio" id="gender" value="gen" name="gender">
+			<label for="gender" id="gender">GENDER</label>
+			<input type="radio" id="gender" value="gen" name="gender" required>
 			<label for="male">MALE</label>
-			<input type="radio" id="gender" name="gender" value="gen" >
+			<input type="radio" id="gender" name="gender" value="gen" required>
 			<label for="female">FEMALE</label><br>
 			
 			<label for="laptop" id="laptop">LAPTOP BRANDS</label>
@@ -30,9 +30,9 @@
 				<option value="asus">ASUS</option>
 				<option value="hp">HP</option>
 			</select>
-			<label for="age">AGE</label>
+			<label for="age" id="age">AGE</label>
 			<input type="number" id="age" required><br>
-			<label for="dob">DOB</label>
+			<label for="dob" id="dob">DOB</label>
 			<input type="date" id="dob" required><br>
 
 			<label for="portfolio">ENTER YOUR PORTFOLIO</label>
