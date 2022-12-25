@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.container{
+    justify-content: center;
+}
+
+.student{}
+.student label,input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.student button{
+    padding: 15px;
+    width: 190px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.student input{
+    width: 190px;
+    
+}
+.student label{
+    display: block;
+}
